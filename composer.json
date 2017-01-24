@@ -1,0 +1,44 @@
+{
+    "name": "mozgbrasil/magento-bundle-php56",
+    "description": "Este é um meta pacote que instala todos os módulos da Mozg no Magento",
+    "version": "1.0.0",
+    "type": "metapackage",
+    "keywords": ["cerebrum", "mozg", "magento", "metapackage"],
+    "homepage": "http://mozg.com.br",
+    "time": "2017-01-24 16:16:37",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Mozg",
+            "email": "suporte@mozg.com.br",
+            "homepage": "http://mozg.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "suporte@mozg.com.br",
+        "issues": "https://github.com/mozgbrasil/magento-bundle-php56/issues",
+        "forum": "http://mozg.com.br/forums/view/1",
+        "wiki": "http://wiki.mozg.com.br",
+        "irc": "irc://irc.freenode.org/mozgbrasil",
+        "source": "https://github.com/mozgbrasil/magento-bundle-php56",
+        "docs": "https://github.com/mozgbrasil/magento-bundle-php56/wiki",
+        "rss": "https://mozg.com.br/feed.xml"
+    },
+    "require" : {
+        "mozgbrasil/magento-brasil-regions": "*",
+        "mozgbrasil/magento-iwd-opc": "*",
+        "mozgbrasil/magento-correios-php56": "1.0.0",
+        "mozgbrasil/magento-jamef-php56": "1.0.0",
+        "mozgbrasil/magento-jadlog-php56": "1.0.0",
+        "mozgbrasil/magento-loggi-php56": "1.0.0",
+        "mozgbrasil/magento-clearsale-php56": "1.0.0",
+        "mozgbrasil/magento-customer-php56": "1.0.0",
+        "mozgbrasil/magento-braspag-php56": "1.0.0",
+        "mozgbrasil/magento-cielo-php56": "1.0.0",
+        "mozgbrasil/magento-itau-php56": "1.0.0",
+        "mozgbrasil/magento-checkout-filters-php56": "1.0.0"
+    }
+}
